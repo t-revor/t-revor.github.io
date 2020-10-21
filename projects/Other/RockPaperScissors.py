@@ -2,7 +2,6 @@
 # I'm bored and in quarantine.
 
 import random
-import os
 import re
 
 wins = 0
