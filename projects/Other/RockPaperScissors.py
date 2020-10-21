@@ -5,6 +5,7 @@ import random
 import re
 
 wins = 0
+choices = ["R", "P", "S"]
 while True:
     print("\n")
     print("Rock, Paper, Scissors!")
@@ -15,7 +16,6 @@ while True:
         print("Please choose between R, P or S.")
         continue
     print("You chose " + myChoice)
-    choices = ["R", "P", "S"]
     cpu_choice = random.choice(choices)
     print("\n")
     print("I chose " + cpu_choice)
